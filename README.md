@@ -16,6 +16,10 @@ TBA
 
 Visualizations of the dataset are browsable at CELLxGENE.
 
+## Detailed protocols
+
+https://www.protocols.io/view/ottr-gyydbxxs7
+
 ## Data availability
 
 #### Raw sequence reads
@@ -32,8 +36,18 @@ Visualizations of the dataset are browsable at CELLxGENE.
 - Raw Xenium data and images have been deposited at the [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) under accession number TBA.
 - Complete count matrices (gene x cell counts) are available as loom files [here].
 
+#### Timelapse videos
+
+-
+
 ## Code used for analysis and visualisation
+
+#### scRNA-seq
 
 - Clustering of the scRNA-seq data was performed using the cytograph-dev version of cytograph. This is the version used for our adult human brain project. Its installation and usage are described [here](https://github.com/linnarsson-lab/adult-human-brain/tree/main/cytograph). 
 - [Jupyter](https://jupyter.org/) notebooks used to make figures are available [here]. The notebooks also import from cytograph-dev. (cytograph-shoji will *not* work).
+
+#### Xenium and alignment with timelapse
+
 - Jupyter notebooks used for Xenium data processing are found [here].
+- Notebooks for alignment: 
