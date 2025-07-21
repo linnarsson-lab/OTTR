@@ -79,5 +79,6 @@ After downloading, Xenium folders can be browsed using the free interactive [Xen
 
 #### Xenium and alignment with timelapse
 
+- Jupyter notebooks to generate the figures can be found here [here](notebooks)
 - Jupyter notebooks used for Xenium data processing are found [here].
 - Notebooks for alignment: 
