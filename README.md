@@ -1,9 +1,10 @@
 # OTTR
 
-Supplementary code and data to our study of OTTR: Organotypic Timelapse recording with Transcriptomic Readout (OTTR) links cell
-identity to cell behaviour in human tissues. Vinsland, Mannens et al. (manuscript in preparation).
+Supplementary code and data for our manuscript "*OTTR: Organotypic Timelapse recording with Transcriptomic Readout (OTTR) links cell
+identity to cell behaviour in human tissues*". (Vinsland, Mannens et al., manuscript submitted).
+<p>&nbsp;</p>
 
-<img src="./static/ottr_overview.png" alt="OTTR overview" width="600px"/>
+<img src="./static/ottr_overview.png" alt="OTTR overview" width="800px"/>
 
 **Figure: OTTR. a)** Overview of OTTR's workflow; and **b)** data modalities
 acquired.
