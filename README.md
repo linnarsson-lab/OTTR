@@ -12,13 +12,13 @@ acquired.
 
 TBA
 
-## Browser
-
-Visualizations of the dataset are browsable at CELLxGENE.
-
 ## Detailed protocols
 
 https://www.protocols.io/view/ottr-gyydbxxs7
+
+## Browser
+
+Visualizations of the dataset are browsable at CELLxGENE.
 
 ## Data availability
 
