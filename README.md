@@ -28,24 +28,45 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
 #### scRNA-seq expression matrices
 
-- Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files:
+- Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files (:
 
-  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom)
+  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB)
 
-  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom)
+  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom) (64 MB)
 
-  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom)
+  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom) (182 MB)
   
 - The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE]. 
 
 #### Xenium spatial data
 
 - Raw Xenium data and images have been deposited at the [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) under accession number TBA.
-- Complete count matrices (gene x cell counts) are available as loom files [here].
+- Raw Xenium data and images can also be downloaded directly from here:
+
+  [output-XETG00045__0011077__EV37_TL__20231025__135741.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00045__0011077__EV37_TL__20231025__135741.gzip) (4 GB)
+
+  [output-XETG00045__0011077__EV39_con__20231025__135741.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00045__0011077__EV39_con__20231025__135741.gzip) (4 GB)
+
+  [output-XETG00045__0011080__EV39_TL_A__20231025__135741.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00045__0011080__EV39_TL_A__20231025__135741.gzip) (4 GB)
+
+  [output-XETG00045__0011080__EV39_TL_B__20231025__135741.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00045__0011080__EV39_TL_B__20231025__135741.gzip) (3 GB)
+
+  [output-XETG00045__0011080__EV39_TL_C__20231025__135741.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00045__0011080__EV39_TL_C__20231025__135741.gzip) (4 GB)
+
+  [output-XETG00047__0011072__EV37_con__20231025__140913.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00047__0011072__EV37_con__20231025__140913.gzip) (4 GB)
+
+  [output-XETG00047__0011075__EV38_TL_A__20231025__140913.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00047__0011075__EV38_TL_A__20231025__140913.gzip) (6 GB)
+
+  [output-XETG00047__0011075__EV38_TL_B__20231025__140913.gzip](https://storage.googleapis.com/linnarsson-lab-ottr/output-XETG00047__0011075__EV38_TL_B__20231025__140913.gzip) (32 GB)
+  
+After downloading, Xenium folders can be browsed using the free interactive [Xenium Explorer](https://www.10xgenomics.com/products/xenium-analysis) tool.
 
 #### Timelapse videos
 
--
+- Raw timelapse images have been deposited at the [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) under accession number TBA.
+- Cell tracks can be downloaded from here:
+
+  TBD
 
 ## Code used for analysis and visualisation
 
