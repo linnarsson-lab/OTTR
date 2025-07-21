@@ -72,8 +72,8 @@ After downloading, Xenium folders can be browsed using the free interactive [Xen
 
 #### scRNA-seq
 
-- Clustering of the scRNA-seq data was performed using the cytograph-dev version of cytograph. This is the version used for our adult human brain project. Its installation and usage are described [here](https://github.com/linnarsson-lab/adult-human-brain/tree/main/cytograph). 
-- [Jupyter](https://jupyter.org/) notebooks used to make figures are available [here]. The notebooks also import from cytograph-dev. (cytograph-shoji will *not* work).
+- Clustering of the scRNA-seq data was performed using the [cytograph-dev](https://github.com/linnarsson-lab/cytograph-dev) version of cytograph. This is the version used for our adult human brain project. Its installation and usage are described [here](https://github.com/linnarsson-lab/adult-human-brain/tree/main/cytograph). 
+- [Jupyter notebooks](https://jupyter.org/) used to make figures. The notebooks require [cytograph-dev](https://github.com/linnarsson-lab/cytograph-dev). (NOTE: *cytograph-shoji* will *not* work).
 
 #### Xenium and alignment with timelapse
 
