@@ -18,7 +18,7 @@ https://www.protocols.io/view/ottr-gyydbxxs7
 
 ## Browser
 
-Visualizations of the dataset are browsable at CELLxGENE.
+Visualizations of the dataset will be browsable at CELLxGENE.
 
 ## Data availability
 
@@ -28,7 +28,14 @@ Visualizations of the dataset are browsable at CELLxGENE.
 
 #### scRNA-seq expression matrices
 
-- Complete count matrices (gene x cell counts) for the cultured cortices are available as loom files [here].
+- Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files:
+
+  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom)
+
+  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom)
+
+  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom)
+  
 - The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE]. 
 
 #### Xenium spatial data
