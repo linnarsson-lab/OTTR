@@ -34,9 +34,7 @@ FEATURES = [
 CONFIG_FILE = f"{OTTR.__file__}/.cell_config.json"
 
 exp = sys.argv[1]
-in_dirs = np.loadtxt('dirs.txt', dtype=str)
-in_dirs = {k:v for k,v in in_dirs}
-sd = in_dirs[exp]
+sd = sys.argv[2]
 
 logging.info(sd)
 d = sd.split('stitched')[0]

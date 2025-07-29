@@ -7,6 +7,7 @@ warnings.simplefilter("ignore")
 import numpy as np
 import multiprocessing as mp
 from tifffile import imread
+import matplotlib.pyplot as plt
 
 from OTTR.preprocessing.utils import *
 from OTTR.segmentation.utils import *
