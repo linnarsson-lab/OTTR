@@ -1,15 +1,15 @@
 ## Import
-import numpy as np
 import logging
 import time, os, sys
-from collections import Counter
-import skimage.io as io
-import matplotlib.pyplot as plt
-import skimage.io as io
 import glob
 import warnings
+import multiprocessing as mp
+from collections import Counter
+import numpy as np
+import matplotlib.pyplot as plt
 from tqdm import tqdm
 from scipy import ndimage as ndi
+from skimage import io
 from skimage.segmentation import watershed
 from skimage.feature import peak_local_max
 from skimage.filters import threshold_otsu, threshold_local, rank
@@ -17,7 +17,6 @@ from skimage.morphology import binary_closing, disk
 from skimage import img_as_float
 import cv2
 from OTTR.pipeline import config
-import multiprocessing as mp
 
 logger = logging.getLogger()
 logging.basicConfig(
@@ -46,7 +45,6 @@ def segment(f, mask_dir, block_size, diameter, threshold_rel, config):
                 image = image-threshold_local(image, block_size=block_size)  ## correct for local background
                 image[bg_mask] = np.median(image[bg_mask])
                 ## Scale Image
-                mn = np.min(image)
                 image = np.clip(image, 0, np.quantile(image,.999))
                 image = (image - image.min()) / (image.max() - image.min())
                 im = rank.mean(image, disk(5))

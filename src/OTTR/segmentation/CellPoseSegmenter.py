@@ -1,16 +1,19 @@
 ## Import
-import numpy as np
 import logging
-import time, os, sys
-import skimage.io as io
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-import skimage.io as io
+import os, sys
 import glob
 import warnings
+import numpy as np
+from skimage import io
+import matplotlib.pyplot as plt
+import matplotlib as mpl
 from tqdm import tqdm
 
+# silence command-line output temporarily
+# sys.stdout, sys.stderr = os.devnull, os.devnull
 from cellpose import utils, models, plot
+# unsilence command-line output
+# sys.stdout, sys.stderr = sys.__stdout__, sys.__stderr__
 
 logger = logging.getLogger()
 logging.basicConfig(

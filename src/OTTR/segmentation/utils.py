@@ -1,13 +1,9 @@
 import logging
+import sys, os
 import pickle
-import yaml
-import os
-import sys
 import numpy as np
-from OTTR.segmentation.CellPoseSegmenter import CellPoseSegmenter
-from OTTR.segmentation.WatershedSegmenter import WatershedSegmenter
-from skimage.measure import regionprops
 from skimage import io
+from skimage.measure import regionprops
 
 def mask_to_pickle(indir: str, outdir: str, t: str, size_lim: list = [0,4000], min_intensity:int = 200, verbose=False):
     '''
@@ -52,8 +48,10 @@ def call_segmenter(fdir, outdir, max_t:int=None, method:str='cellpose', diameter
         os.mkdir(outdir)
 
     if method == 'cellpose':
+        from OTTR.segmentation.CellPoseSegmenter import CellPoseSegmenter
         segmenter = CellPoseSegmenter(data_dir=fdir, max_t=max_t, out_dir=outdir, diameter=diameter, model='cyto', verbose=verbose)
         segmenter.fit()
     elif method == 'watershed':
+        from OTTR.segmentation.WatershedSegmenter import WatershedSegmenter
         segmenter = WatershedSegmenter(data_dir=fdir, max_t=max_t, out_dir=outdir, diameter=diameter, verbose=verbose, parallel=True) ## False
         segmenter.fit()
