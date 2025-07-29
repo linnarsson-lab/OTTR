@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "OTTR"
+version = "0.0.0"
+dependencies = [
+    'numpy',
+    'scikit-learn',
+    'btrack',
+    'scipy',
+    'scikit-image',
+    'matplotlib',
+    'tifffile',
+    'pyyaml', 
+    'pandas', 
+    'anytree',
+    'cellpose',
+    'nd2reader',
+    'opencv-python',
+    'tqdm',
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Camiel Mannens", email = "camiel.mannens@kuleuven.be"},
+  {name = "Sten Linnarsson", email = "sten.linnarsson@ki.se"},
+]
+maintainers = [
+  {name = "Sten Linnarsson", email = "sten.linnarsson@ki.se"}
+]
+description = "Analysis pipeline for live imaging data contained in the OTTR paper"
+readme = "README.md"
+license = "BSD-2-Clause"
+license-files = ["LICENSE"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = "https://example.com"
+Repository = "https://github.com/linnarsson-lab/OTTR.git"
+"Bug Tracker" = "https://github.com/innarsson-lab/OTTR/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/OTTR"]
