@@ -65,6 +65,16 @@ After downloading, Xenium folders can be browsed using the free interactive [Xen
 
 #### Timelapse videos
 
+- Supplementary videos:
+
+  [Video S1](https://storage.googleapis.com/linnarsson-lab-ottr/Video_S1_Cell_divisions.mp4): Cell divisions
+  
+  [Video S2](https://storage.googleapis.com/linnarsson-lab-ottr/Video_S2_cell_accumulation_around_vessels.mp4): Cell accumulation around vessels
+  
+  [Video S3](https://storage.googleapis.com/linnarsson-lab-ottr/Video_S3_vessel_migration.mp4): Vessel migration
+  
+  [Video S4](https://storage.googleapis.com/linnarsson-lab-ottr/Video_S4_Vessel_zoom_cell_behaviour.mp4): Vessel zoom cell behavior
+
 - Raw timelapse images have been deposited at the [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) under accession number TBA.
 - Cell tracks can be downloaded from here:
 
