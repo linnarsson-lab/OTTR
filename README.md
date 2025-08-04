@@ -30,7 +30,7 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
 #### scRNA-seq expression matrices
 
-- Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files (:
+- Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files:
 
   [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB)
 
