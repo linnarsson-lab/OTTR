@@ -12,7 +12,7 @@ acquired.
 
 ## Preprint (bioRxiv)
 
-TBA
+https://www.biorxiv.org/content/10.1101/2025.07.28.667119v1
 
 ## Detailed protocols
 
