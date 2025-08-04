@@ -32,11 +32,11 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
 - Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files:
 
-  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB)
+  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB) - Cortex cultures with lentivirus to induce EYFP expression (Fig.2, ExtD. Fig.2)
 
-  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom) (64 MB)
+  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom) (64 MB) - Cortical cultures maintained for One Month In Vitro (Fig.2, ExtD. Fig.2)
 
-  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom) (182 MB)
+  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom) (182 MB) - Cortical cultures maintained for Two Weeks In Vitro (Fig.2, ExtD. Fig.2)
   
 - The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE]. 
 
