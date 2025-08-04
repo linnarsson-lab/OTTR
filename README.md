@@ -30,13 +30,14 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
 #### scRNA-seq expression matrices
 
+- Related to Figure 2 and Extended Data Figure 2
 - Complete count matrices (gene ✕ cell counts) for the cultured cortices are available as [.loom](https://loompy.org) files:
 
-  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom) (64 MB) - Cortical cultures maintained for One Month In Vitro (Fig.2, ExtD. Fig.2)
+  [cultures_OneMIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_OneMIV_HS.loom) (64 MB) - Cultures maintained for One Month in vitro
 
-  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom) (182 MB) - Cortical cultures maintained for Two Weeks In Vitro (Fig.2, ExtD. Fig.2)
+  [cultures_TwoWIV_HS.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_TwoWIV_HS.loom) (182 MB) - Cultures maintained for Two Weeks in vitro
 
-  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB) - Cortical cultures with lentiviral EYFP expression, cultured for 4 and 11 days in vitro (Fig.2, ExtD. Fig.2)
+  [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB) - Cultures with lentiviral EYFP expression, cultured for 4 and 11 days in vitro
   
 - The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE]. 
 
