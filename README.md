@@ -39,7 +39,7 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
   [cultures_EYFP.loom](https://storage.googleapis.com/linnarsson-lab-ottr/cultures_EYFP.loom) (387 MB) - Cultures with lentiviral EYFP expression, cultured for 4 and 11 days in vitro
   
-- The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE]. 
+- The datasets can also be downloaded as .h5ad files from the browser: [CELLxGENE](https://cellxgene.cziscience.com/collections/644927a3-456b-4e64-b7cd-76547bfc694d). 
 
 #### Xenium spatial data
 
