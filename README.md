@@ -26,7 +26,7 @@ Visualizations of the dataset will be browsable at CELLxGENE.
 
 #### Raw sequence reads
 
-- scRNA-seq BAM files will be available from the European Genome/Phenome Archive (https://ega-archive.org/) under accession number TBA. 
+- scRNA-seq BAM files are available from the European Genome/Phenome Archive (https://ega-archive.org/) under accession number EGAS50000001185. 
 
 #### scRNA-seq expression matrices
 
